@@ -52,6 +52,7 @@
     height: 2px;
     top: 28px;
     left: 0;
+    transition: 0.5s;
    
 }
 .california nav ul li a:hover::after {
