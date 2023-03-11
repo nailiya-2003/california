@@ -31,7 +31,6 @@
 .california nav .logo:hover {
     transform: scale(1.3);
 }
-
 .california nav ul li {
     list-style: none;
     display: inline-block;
@@ -42,6 +41,24 @@
     color: #fff;
     font-size: 20px;
     transition: 0.5s;
+    position: relative; 
+    padding: 50px;
+}
+.california nav ul li a::after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    background-color: rgb(166, 137, 253);
+    height: 2px;
+    top: 28px;
+    left: 0;
+   
+}
+.california nav ul li a:hover::after {
+    width: 100%;
+    top: 35px;
+    height: 4px;
+    
 }
 .california nav ul li a:hover {
     font-size: 23px;
