@@ -77,11 +77,11 @@
     text-transform: capitalize;
     font-weight: 600;
     transition: 0.3s;
-    cursor:pointer;
 }
 .content h1:hover {
     -webkit-text-stroke: 2px white;
     color: transparent;
+    cursor:pointer;
 }
 .content a {
     text-decoration: none;
